@@ -1,0 +1,34 @@
+/*
+ * Remove everything below this line that you don't need
+ * This is just part of the demo mission and not needed
+ */
+
+enableDebugConsole = 2;
+
+briefing = 0;
+debriefing = 0;
+
+
+overviewPicture = "";
+overviewText = "Weapon Holster Showcase";
+OnLoadName = "Weapon Holster Showcase";
+author = "Fafnir";
+onLoadMission = "";
+OnLoadMissionTime = 1;
+
+respawn = 2;
+respawnDelay = 3;
+respawnDialog = 0;
+respawnOnStart = -1;
+
+disabledAI = 1;
+aiKills = 0;
+
+joinUnassigned = 0;
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 16;
+};

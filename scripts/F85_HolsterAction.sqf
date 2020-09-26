@@ -6,7 +6,7 @@
 
 private _title = "No weapon in hand";
 
-// Remove any previous actions with this title. Not strictly necessary, unless you call this script more than once.
+// Remove any previous actions with this title. Necessary if it is called more than once for a player, e.g. in `onPlayerRespawn.sqf`.
 {
 	private _params = player actionParams _x;
 	if (_params select 0 == _title) then {

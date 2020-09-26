@@ -1,6 +1,12 @@
+/*
+ * Author: Fafnir
+ * Homepage: https://github.com/maybe-dragon/arma3-weapon-holster
+ * License: MIT, do whatever you want
+ */
+
 private _title = "No weapon in hand";
 
-// Remove any previous actions with this title
+// Remove any previous actions with this title. Not strictly necessary, unless you call this script more than once.
 {
 	private _params = player actionParams _x;
 	if (_params select 0 == _title) then {
